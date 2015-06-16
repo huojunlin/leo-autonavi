@@ -115,10 +115,5 @@
 			<version>${jackson.version}</version>
 		</dependency>
 		<!-- JSON end -->
-		<dependency>
-			<groupId>pinyin4j</groupId>
-			<artifactId>pinyin4j</artifactId>
-			<version>2.5.0</version>
-		</dependency>
 	</dependencies>
 </project>
