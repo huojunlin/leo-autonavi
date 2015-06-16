@@ -35,7 +35,7 @@ public class AutoNaviController {
 	public String goNavigation(HttpServletRequest req, HttpServletResponse res, ModelMap model) {
 		log.info("goNavigation Start");
 		log.info("goNavigation End");
-		return "/autonavi/navigation";
+		return "/navigation";
 	}
 
 	// 进入地图页面
@@ -61,7 +61,7 @@ public class AutoNaviController {
 		model.addAttribute("positioningTime", positioningTime);
 		model.addAttribute("openFlag", openFlag);
 		log.info("goMap End");
-		return "/autonavi/map";
+		return "/map";
 	}
 
 	// 进入地图独立页面，只显示车辆位置
@@ -69,7 +69,7 @@ public class AutoNaviController {
 	public String goMapSingle() {
 		log.info("goMapSingle Start");
 		log.info("goMapSingle End");
-		return "/autonavi/mapsingle";
+		return "/mapsingle";
 	}
 
 	// 进入地图监控页面，显示车辆轨迹
@@ -77,7 +77,7 @@ public class AutoNaviController {
 	public String goMapTrace() {
 		log.info("goMapTrace Start");
 		log.info("goMapTrace End");
-		return "/autonavi/maptrace";
+		return "/maptrace";
 	}
 
 	// 进入地图气泡页面
@@ -91,7 +91,7 @@ public class AutoNaviController {
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
-		return "/autonavi/maptip";
+		return "/maptip";
 	}
 
 	// 获取POI查询结果
