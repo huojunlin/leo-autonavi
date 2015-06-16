@@ -1,0 +1,214 @@
+@CHARSET "UTF-8";
+
+body {
+	text-alitn: center;
+	vertical-align: bottom;
+	margin: 0px;
+	
+}
+
+.iw_poi_title {
+	color: #4D4D4D;
+	font-size: 12px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-left: 11px;
+	height: 30px;
+	line-height: 30px;
+	white-space: nowrap;
+	text-align: left;
+	background-color: #F9F9F9;
+	border-bottom: 1px solid gray;
+	background-color: #F9F9F9;
+}
+
+.btn_close {
+	margin-right: 3px;
+}
+
+.btn_close img {
+	cursor: pointer;
+}
+
+.udis {
+	display: none;
+}
+
+.div_body {
+	background-color: #FFFFFF;
+	border: 1px solid gray;
+}
+
+tbody {
+	border-bottom: 1px solid gray;
+}
+
+#operating {
+	margin-left:5px;	
+	margin-right:5px;
+	vertical-align: top;
+}
+
+tbody  {
+	margin-left:5px;	
+	margin-right:5px;
+	vertical-align: top;
+}
+
+.commonpanel .floatLeft {
+	float: left;
+}
+
+.commonpanel .floatRight {
+	float: right;
+}
+
+.commonpanel input {
+	padding-left: 3px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #D6D6D6;
+	color: #999999;
+	font: 12px '宋体', Arial;
+}
+
+.commonpanel .input_ctl {
+	font: 12px '宋体', Arial;
+}
+
+.commonpanel .input_ctl label {
+	font: 12px '宋体', Arial;
+	left: 5px;
+	line-height: 24px;
+}
+
+.commonpanel .input_ctl input {
+	line-height: normal;
+	line-height: 24px\9;
+}
+
+.commonpanel input.focus {
+	cursor: text;
+	background-color: #FFFFFF;
+	border: 1px solid #1e8ae5;
+	color: #000000;
+}
+
+.commonpanel input.blur {
+	color: #000000;
+}
+
+.commonpanel .sButCon {
+	height: 30px;
+	width: 33%;
+	float: left;
+	border-bottom: 1px solid #D7E0E6;
+	border-left: 1px solid #D7E0E6;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.commonpanel .sButCon .icon0 {
+	float: left;
+	height: 17px;
+	width: 14px;
+	position: relative;
+	top: 7px;
+	left: 23px;
+}
+
+.commonpanel .sButCon .icon1 {
+	float: left;
+	height: 17px;
+	width: 14px;
+	position: relative;
+	top: 6px;
+	left: 26px;
+}
+
+.commonpanel .sButCon .icon2 {
+	float: left;
+	height: 17px;
+	width: 13px;
+	position: relative;
+	top: 6px;
+	left: 23px;
+}
+
+.commonpanel .bg {
+	background: #f8fbfd;
+}
+
+.commonpanel .fw {
+	font-weight: bold;
+}
+
+.commonpanel .surebut {
+	border: 1px solid #bdcbd3;
+	background-color: #f9fafb;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	line-height: 24px;
+	height: 24px;
+}
+
+.commonpanel .surebut:hover {
+	background-color: #e6edf1;
+	text-decoration: none;
+}
+
+.sendpoi {
+	border: 1px solid #bdcbd3;
+	background-color: #f9fafb;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	line-height: 24px;
+	height: 24px;
+	margin-bottom: 4px;
+}
+
+.sendpoi:hover {
+	background-color: #e6edf1;
+	text-decoration: none;
+}
+
+#close {
+	cursor: pointer; 
+	position: absolute; 
+	width: 34px; 
+	height: 33px; 
+	right: 0px; 
+	z-index: 17; 
+	text-align: center; 
+	line-height: 33px; 
+	background-color: rgb(255, 255, 255);
+}
+#close .close_d {
+	position: absolute; 
+	overflow: hidden; 
+	width: 10px; 
+	height: 10px; 
+	left: 12px; 
+	top: 10px;
+}
+
+#close .close_d .close_i {
+	width: 93px; 
+	height: 75px; 
+	position: absolute; 
+	left: -46px; 
+	top: -64px; 
+	z-index: 0; 
+	border: 0px;
+}
+
+#close:hover{
+	background-color: rgb(235, 238, 240);
+}
+
+#close:hover .close_i {
+	left: -58px; 
+}

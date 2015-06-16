@@ -1,0 +1,139 @@
+﻿a{text-decoration:none;}
+.cl{clear:both;height:0px;}
+.undis{display:none;}
+.cp_focus_float {
+	position: absolute;
+	width: 360px;
+	height: 200px;
+	display: none;
+	border: 1px solid #999999;
+	top: 18px;
+	left: 0;
+	background: #ffffff
+}
+
+.cp_focus_float_top {
+	float: left;
+	width: 100%;
+	line-height: 24px;
+	background: #67A1E2;
+	color: #ffffff
+}
+
+.cp_focus_float_tab {
+	float: left;
+	width: 95%;
+	height: 175px;
+	padding: 5px 0 0 7px;
+}
+
+.cp_focus_float_table {
+	margin-bottom: 0px;
+}
+
+.cp_focus_float_table td {
+	text-align: center;
+	line-height: 24px;
+	color: #005DAA;
+	border-bottom: 1px solid #5DA9E2
+}
+
+.cp_focus_float_table_td {
+	border-top: 1px solid #5DA9E2;
+	border-left: 1px solid #5DA9E2;
+	border-right: 1px solid #5DA9E2;
+	border-bottom: 0 !important;
+	font-weight: bold;
+	color: #000000 !important
+}
+
+.cp_focus_float_table2 a:link,.cp_focus_float_table2 a:visited {
+	white-space: nowrap;
+	float: left;
+	width: auto;
+	display: block;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #ffffff;
+	color: #005DAA
+}
+
+.cp_focus_float_table2 a:hover {
+	white-space: nowrap;
+	float: left;
+	width: auto;
+	display: block;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #ACCCEF;
+	background: #E8F4FF
+}
+
+.cityList .selection {
+    background: none repeat scroll 0 0 #99ccff;
+}
+
+.cp-autocomplete {
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: default
+}
+
+.cp-front {
+	z-index: 100
+}
+
+.cp-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	outline: none
+}
+
+.cp-widget {
+	font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 1.1em
+}
+
+.cp-widget .cp-widget {
+	font-size: 1em
+}
+
+.cp-widget input,.cp-widget select,.cp-widget textarea,.cp-widget button
+	{
+	font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 1em
+}
+
+.cp-widget-content {
+	border: 1px solid #ddd;
+	background: #eee;
+	color: #333
+}
+
+.cp-widget-content a {
+	color: #333
+}
+
+.cp-menu .cp-menu-item {
+	position: relative;
+	margin: 0;
+	padding: 3px 1em 3px .1em;
+	cursor: pointer;
+	min-height: 0;
+	border: 1px solid #eee;
+	background-color:#eee;
+}
+
+.cp-menu .cp-menu-item:hover {
+	border: 1px solid #fbcb09;
+	background-color: #fdf5ce;
+	font-weight: bold;
+	color: #c77405;
+}
+.selection {
+	border: 1px solid #fbcb09 !important;
+	background-color: #fdf5ce !important;
+	font-weight: bold !important;
+	color: #c77405 !important;
+}
