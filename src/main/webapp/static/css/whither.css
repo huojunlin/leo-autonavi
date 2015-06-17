@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+*{padding:0px; margin:0px;line-height:21px}
+body{background:white;margin:10px}
+a:link { text-decoration: none}
+a:active { text-decoration: none}
+a:hover { text-decoration: none}
+a:visited { text-decoration: none}
+.big_box{background:#e2f6fd;border:1px solid #78a9ad;width:500px;padding:10px;line-height:30px;font-size:12px;}
+.title{text-align:center;font-size:20px}
+.list{border-right:1px solid #78a9ad;border-top:1px solid #78a9ad;width:100%}
+.list td{border-left:1px solid #78a9ad;border-bottom:1px solid #78a9ad;text-align:center;}
+.list tr{background:#ffffff}
+.list tr:first-child{background:url(../images/titlebg01.gif)}
+.list tbody tr:nth-child(2n){background:#f5f5f5}
+#resultList tr:hover{background:#dfdfdf}
+.button{cursor:pointer}
+.info{text-align:center;padding-top:10px}
+.submit{display:block;background:url(../images/btnsmall_normalbg.gif);width:71px;height:21px;text-align:center}
+.btn_bg{background: url(../images/btn_bg.gif) repeat-x; height:20px;padding-top:2px;vertical-align:center; border:1px solid gray;display:block;cursor:pointer}
+.btn_bg :hover{background: url(../images/btn_bg.gif) repeat-x; height:20px;padding-top:2px;vertical-align:center; border:1px solid red;display:block;cursor:pointer}
