@@ -35,7 +35,7 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 	
-	<mvc:resources mapping="/css/**" location="/static/agent/css/" />
-	<mvc:resources mapping="/js/**" location="/static/agent/js/" />
-	<mvc:resources mapping="/images/**" location="/static/agent/images/" />
+	<mvc:resources mapping="/css/**" location="/static/css/" />
+	<mvc:resources mapping="/js/**" location="/static/js/" />
+	<mvc:resources mapping="/images/**" location="/static/images/" />
 </beans>

@@ -14,13 +14,13 @@
 
 	<!-- <link rel="stylesheet" href="css/style.css" type="text/css" /> -->
 	<script type="text/javascript" src="../js/jquery-1.7.2.js"></script>
-	<%-- <script type="text/javascript" src="<%=com.leo.common.cfg.AppConfig.getParameter("autonavi.mapjsurl")%>"></script>
-	<script type="text/javascript" src="js/map.js"></script> --%>
+	<script type="text/javascript" src="<%=com.leo.common.cfg.AppConfig.getParameter("autonavi.mapjsurl")%>"></script>
+	<script type="text/javascript" src="../js/autonavi/map.js"></script>
 </head>
-<body bgcolor="#FFFFFF" text="#000000" style="overflow:hidden;">adsad
-	<div class="J_Map" id="mapDiv" style="position: relative; margin-right: 0px;" data-setting='{"target":"mapDiv", "width": 300, "height":300}'></div>
+<body bgcolor="#FFFFFF" text="#000000" style="overflow:hidden;">
+	<div class="J_Map" id="mapDiv" style="position: relative; margin-right: 0px;" data-setting='{"target":"mapDiv", "width": "1440", "height":"790"}'></div>
 	<script type="text/javascript">
-		//Autonavi.init($(".J_Map"));
+		Autonavi.init($(".J_Map"));
 	</script>
 </body>
 </html>
